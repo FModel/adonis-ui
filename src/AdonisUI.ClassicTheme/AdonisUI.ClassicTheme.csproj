@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <!-- Build Settings -->
   <PropertyGroup>
-    <TargetFrameworks>net462;net8.0-windows;net9.0-windows</TargetFrameworks>
+    <TargetFrameworks>net10.0-windows</TargetFrameworks>
     <LangVersion>latest</LangVersion>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <UseWpf>true</UseWpf>
     <NoWarn>CS1591</NoWarn>
@@ -11,7 +11,7 @@
 
   <!-- Package metadata -->
   <PropertyGroup>
-    <Version>1.17.1</Version>
+    <Version>1.17.2</Version>
     <Description>Styles implementing AdonisUI's theme definitions to provide classic look and feel.</Description>
     <Company>benruehl</Company>
     <Authors>benruehl</Authors>

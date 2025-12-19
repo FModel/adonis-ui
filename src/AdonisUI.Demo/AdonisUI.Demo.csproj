@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <LangVersion>latest</LangVersion>
     <RootNamespace>AdonisUI.Demo</RootNamespace>
     <StartupObject>AdonisUI.Demo.App</StartupObject>
-    <Version>1.17.1</Version>
+    <Version>1.17.2</Version>
     <Description>Demo application demonstrating AdonisUI's look and feel.</Description>
     <Company>benruehl</Company>
     <Authors>benruehl</Authors>

@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <!-- Build Settings -->
   <PropertyGroup>
-    <TargetFrameworks>net462;net8.0-windows;net9.0-windows</TargetFrameworks>
+    <TargetFrameworks>net10.0-windows</TargetFrameworks>
     <LangVersion>latest</LangVersion>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <UseWpf>true</UseWpf>
     <NoWarn>CS1591</NoWarn>
@@ -11,7 +11,7 @@
 
   <!-- Package metadata -->
   <PropertyGroup>
-    <Version>1.17.1</Version>
+    <Version>1.17.2</Version>
     <Description>Core theme definitions for AdonisUI - a lightweight UI toolkit for WPF applications offering classic but enhanced windows visuals</Description>
     <Company>benruehl</Company>
     <Authors>benruehl</Authors>
@@ -35,7 +35,7 @@
   </PropertyGroup>
 
   <!-- Project References -->
-  <ItemGroup Condition="'$(TargetFramework)' != 'net462'">
-    <PackageReference Include="System.Drawing.Common" Version="9.0.0" />
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
   </ItemGroup>
 </Project>
