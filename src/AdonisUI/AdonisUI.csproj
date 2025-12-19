@@ -33,9 +33,4 @@
   <PropertyGroup>
     <PackageIcon>favicon-256x256.png</PackageIcon>
   </PropertyGroup>
-
-  <!-- Project References -->
-  <ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
-  </ItemGroup>
 </Project>
