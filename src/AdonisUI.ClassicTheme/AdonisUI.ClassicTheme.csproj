@@ -26,6 +26,10 @@
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
   <!-- Package Icon -->
   <ItemGroup>
     <None Include="..\..\resources\img\favicon-256x256.png" Pack="true" Visible="false" PackagePath="\" />

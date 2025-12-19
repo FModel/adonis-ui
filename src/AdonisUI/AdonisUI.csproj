@@ -9,6 +9,10 @@
     <NoWarn>CS1591</NoWarn>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
   <!-- Package metadata -->
   <PropertyGroup>
     <Version>1.17.2</Version>
