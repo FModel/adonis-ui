@@ -1,10 +1,8 @@
 # ![Favicon](./resources/img/favicon-32x32.png) Adonis UI
 
-[![Build Status](https://dev.azure.com/devruehl/AdonisUI/_apis/build/status/benruehl.adonis-ui?branchName=master)](https://dev.azure.com/devruehl/AdonisUI/_build/latest?definitionId=1&branchName=master)
-[![NuGet version](https://img.shields.io/nuget/v/AdonisUi.ClassicTheme.svg)](https://www.nuget.org/packages/AdonisUI.ClassicTheme/)
-[![NuGet downloads](https://img.shields.io/nuget/dt/AdonisUi.ClassicTheme.svg)](https://www.nuget.org/packages/AdonisUI.ClassicTheme/)
-![.NET Version: >= 8.0](https://img.shields.io/badge/.NET-%3E%3D%205.0-green.svg)
-![.NET Framework version: >= 4.6.2](https://img.shields.io/badge/.NET%20Framework-%3E%3D%204.5-green.svg)
+[![NuGet version](https://img.shields.io/nuget/v/FModel.AdonisUi.ClassicTheme.svg)](https://www.nuget.org/packages/FModel.AdonisUI.ClassicTheme/)
+[![NuGet downloads](https://img.shields.io/nuget/dt/FModel.AdonisUi.ClassicTheme.svg)](https://www.nuget.org/packages/FModel.AdonisUI.ClassicTheme/)
+![.NET Version: >= 10.0](https://img.shields.io/badge/.NET-%3E%3D%2010.0-green.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Lightweight UI toolkit for WPF applications offering classic but enhanced windows visuals
@@ -33,7 +31,7 @@ Lightweight UI toolkit for WPF applications offering classic but enhanced window
 
 ## Getting started
 
-1. Reference `AdonisUI` and `AdonisUI.ClassicTheme` in your WPF project. It is available via [NuGet](https://www.nuget.org/packages/AdonisUI.ClassicTheme/) or [manual download](https://github.com/benruehl/adonis-ui/releases). Currently it requires at least .NET Framework 4.6.2 or .NET 8.0.
+1. Reference `FModel.AdonisUI` and `FModel.AdonisUI.ClassicTheme` in your WPF project. It is available via [NuGet](https://www.nuget.org/packages/FModel.AdonisUI.ClassicTheme/). Currently it requires at least .NET 10.0.
 2. Add resources to your application in your `App.xaml` like so:
 
 ```xml
@@ -176,8 +174,6 @@ The same works also for thicknesses like margin and padding:
 ## Demo
 
 There is a WPF demo application on board that shows most features of Adonis UI in action. Please don't hesitate to give it a try.
-
-[Download here](https://github.com/benruehl/adonis-ui/releases/download/1.17/AdonisUI.Demo.zip)
 
 ## License
 

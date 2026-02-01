@@ -15,26 +15,25 @@
 
   <!-- Package metadata -->
   <PropertyGroup>
-    <Version>1.17.2</Version>
+    <Version>1.18.0</Version>
+    <PackageId>FModel.AdonisUI</PackageId>
     <Description>Core theme definitions for AdonisUI - a lightweight UI toolkit for WPF applications offering classic but enhanced windows visuals</Description>
-    <Company>benruehl</Company>
-    <Authors>benruehl</Authors>
-    <PackageId>AdonisUI</PackageId>
-    <Copyright>Copyright ©  2020 Benjamin Rühl</Copyright>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/benruehl/adonis-ui</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/benruehl/adonis-ui.git</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
     <PackageTags>UI Styles Themes Templates Controls WPF XAML</PackageTags>
-    <PackageReleaseNotes>See release notes at https://github.com/benruehl/adonis-ui/releases </PackageReleaseNotes>
+    <Copyright>Copyright © 2026 FModel</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <NeutralLanguage>en</NeutralLanguage>
-  </PropertyGroup>
-
-  <!-- Package Icon -->
-  <ItemGroup>
-    <None Include="..\..\resources\img\favicon-256x256.png" Pack="true" Visible="false" PackagePath="\" />
-  </ItemGroup>
-  <PropertyGroup>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Copyright>Copyright © 2026 FModel</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>favicon-256x256.png</PackageIcon>
   </PropertyGroup>
+
+  <!-- Package assets -->
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" Visible="false" PackagePath="\" />
+    <None Include="..\..\resources\img\favicon-256x256.png" Pack="true" Visible="false" PackagePath="\" />
+  </ItemGroup>
 </Project>

@@ -21,8 +21,8 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 ## Any contributions you make will be under the MIT Software License
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using Github's [issues](https://github.com/benruehl/adonis-ui/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/benruehl/adonis-ui/issues/new/choose). You will be asked to choose from different templates. Each template will give you guidance to create a meaningful issue. It's that easy!
+## Report bugs using Github's [issues](https://github.com/FModel/adonis-ui/issues)
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/FModel/adonis-ui/issues/new/choose). You will be asked to choose from different templates. Each template will give you guidance to create a meaningful issue. It's that easy!
 
 ## Use a consistent coding style
 Please be consistent with the project's coding style. It makes maintaining easier and helps other developers understand the code. The project follows the default styling rules of Visual Studio and ReSharper.

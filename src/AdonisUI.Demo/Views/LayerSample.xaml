@@ -283,7 +283,7 @@
                        Grid.Row="2"/>
 
             <TextBlock Grid.Row="4">
-                <Hyperlink NavigateUri="https://github.com/benruehl/adonis-ui">Hyperlink</Hyperlink>
+                <Hyperlink NavigateUri="https://github.com/FModel/adonis-ui">Hyperlink</Hyperlink>
             </TextBlock>
 
         </Grid>
