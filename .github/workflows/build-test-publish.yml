@@ -37,17 +37,17 @@ jobs:
 #        run: dotnet test -c Release --no-restore --no-build -v normal
 
       - name: Pack NuGet Package(s)
-        run: dotnet pack -c Release --no-restore --no-build --output "$env:USERPROFILE\nuget-packages"
+        run: dotnet pack -c Release --no-restore --no-build --output "${{ github.workspace }}\nuget-packages"
 
       - name: Upload Build Artifact(s)
         uses: actions/upload-artifact@v4
         with:
           name: nuget-packages
-          path: "$env:USERPROFILE\nuget-packages"
+          path: "${{ github.workspace }}\nuget-packages"
 
 #      - name: Push NuGet Package(s) to nuget.org
 #        run: |
-#          dotnet nuget push "$env:USERPROFILE\nuget-packages\*.nupkg" `
+#          dotnet nuget push "${{ github.workspace }}\nuget-packages\*.nupkg" `
 #            --source https://api.nuget.org/v3/index.json `
 #            --api-key ${{ secrets.NUGET_API_KEY }} `
 #            --skip-duplicate
@@ -63,7 +63,7 @@ jobs:
 
       # - name: Push NuGet Package(s) to GitHub
         # run: |
-          # dotnet nuget push "$env:USERPROFILE\nuget-packages\*.nupkg" `
+          # dotnet nuget push "${{ github.workspace }}\nuget-packages\*.nupkg" `
             # --source github `
             # --api-key ${{ secrets.GITHUB_TOKEN }} `
             # --skip-duplicate
