@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AdonisUI.ClassicTheme/AdonisUI.ClassicTheme.csproj" />
+  <Project Path="AdonisUI.Demo/AdonisUI.Demo.csproj" />
+  <Project Path="AdonisUI/AdonisUI.csproj" />
+</Solution>
